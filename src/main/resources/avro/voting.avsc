@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "Voting",
+  "namespace": "com.kafka.demovotingapi.schema",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "type": "string"
+    }]
+}
