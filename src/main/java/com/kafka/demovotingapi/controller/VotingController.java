@@ -2,7 +2,7 @@ package com.kafka.demovotingapi.controller;
 
 import javax.validation.Valid;
 
-import com.kafka.demovotingapi.adapter.kafka.VotingKafkaProducer;
+import com.kafka.demovotingapi.adapter.kafka.producer.VotingKafkaProducer;
 import com.kafka.demovotingapi.entity.dto.VotingDTO;
 
 import org.springframework.beans.factory.annotation.Autowired;

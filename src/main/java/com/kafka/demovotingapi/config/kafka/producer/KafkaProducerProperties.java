@@ -1,4 +1,4 @@
-package com.kafka.demovotingapi.config;
+package com.kafka.demovotingapi.config.kafka.producer;
 
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -15,7 +15,7 @@ import io.confluent.kafka.serializers.KafkaAvroSerializer;
 )
 @Data
 @NoArgsConstructor
-public class KafkaProperties {
+public class KafkaProducerProperties {
 
   private String bootstrapServer;
   private String acksConfig;

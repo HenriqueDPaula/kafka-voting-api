@@ -1,4 +1,4 @@
-package com.kafka.demovotingapi.adapter.kafka;
+package com.kafka.demovotingapi.adapter.kafka.producer;
 
 import com.kafka.demovotingapi.entity.dto.VotingDTO;
 import com.kafka.demovotingapi.schema.Voting;

@@ -1,4 +1,4 @@
-package com.kafka.demovotingapi.adapter.kafka;
+package com.kafka.demovotingapi.adapter.kafka.producer;
 
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.kafka.core.KafkaTemplate;

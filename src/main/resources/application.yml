@@ -3,8 +3,13 @@ server:
 spring:
   kafka:
     consumer:
-      group-id: voting
-      bootstrap-servers: 127.0.0.1:9092
+      topic: voting-topic
+      groupId: voting-api-v1
+      bootstrap-server: 127.0.0.1:9092
+      enable-auto-commit: false
+      auto-offset-reset: earliest
+      schemaRegistryUrl: "http://127.0.0.1:8081"
+      specific-avro-reader: true
 
     producer:
       groupId: voting-api-v1
